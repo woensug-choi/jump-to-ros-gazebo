@@ -146,7 +146,6 @@
 
 .book.font-family-0 {
     font-family: NanumMyeongjo;
-    src: url("./fonts/NanumMyeongjoBold.otf") format('opentype');
 }
 .book.font-family-1 {
     font-family: NanumSquareNeo;
@@ -154,35 +153,40 @@
 
 @font-face {
   font-family: NanumSquareNeo;
-  src: url("./fonts/NanumSquareNeoTTF-aLt.eot?#iefix") format('embedded-opentype'),
-       url("./fonts/NanumSquareNeoTTF-aLt.woff2") format('woff2'),
-       url("./fonts/NanumSquareNeoTTF-aLt.woff") format('woff'),
-       url("./fonts/NanumSquareNeoOTF-aLt.otf") format('opentype');
+  src: url("./fonts/NanumSquareNeoOTF-aLt.otf") format('opentype');
   font-weight: 300;
 }
 @font-face {
   font-family: NanumSquareNeo;
-  src: url("./fonts/NanumSquareNeoTTF-bRg.eot?#iefix") format('embedded-opentype'),
-       url("./fonts/NanumSquareNeoTTF-bRg.woff2") format('woff2'),
-       url("./fonts/NanumSquareNeoTTF-bRg.woff") format('woff'),
-       url("./fonts/NanumSquareNeoOTF-bRg.otf") format('opentype');
+  src: url("./fonts/NanumSquareNeoOTF-bRg.otf") format('opentype');
   font-weight: 400;
 }
 @font-face {
   font-family: NanumSquareNeo;
-  src: url("./fonts/NanumSquareNeoTTF-cBd.eot?#iefix") format('embedded-opentype'),
-       url("./fonts/NanumSquareNeoTTF-cBd.woff2") format('woff2'),
-       url("./fonts/NanumSquareNeoTTF-cBd.woff") format('woff'),
-       url("./fonts/NanumSquareNeoOTF-cBd.otf") format('opentype');
+  src: url("./fonts/NanumSquareNeoOTF-cBd.otf") format('opentype');
   font-weight: 700;
 }
 @font-face {
   font-family: NanumSquareNeo;
-  src: url("./fonts/NanumSquareNeoTTF-dEb.eot?#iefix") format('embedded-opentype'),
-       url("./fonts/NanumSquareNeoTTF-dEb.woff2") format('woff2'),
-       url("./fonts/NanumSquareNeoTTF-dEb.woff") format('woff'),
-       url("./fonts/NanumSquareNeoOTF-dEb.otf") format('opentype');
+  src: url("./fonts/NanumSquareNeoOTF-dEb.otf") format('opentype');
   font-weight: 800;
+}
+
+
+@font-face {
+  font-family: NanumMyeongjo;
+  src: url("./fonts/NanumMyeongjo.otf") format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: NanumMyeongjo;
+  src: url("./fonts/NanumMyeongjoBold.otf") format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: NanumMyeongjo;
+  src: url("./fonts/NanumMyeongjoExtraBold.otf") format('opentype');
+  font-weight: 700;
 }
 
 
