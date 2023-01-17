@@ -14,8 +14,7 @@ baseurl:          '/ros-gazebo-wikibook'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
-
+remote_theme: woensug-choi/ros-gazebo-wikibook
 toc:
   enabled: true
   h_min: 1
