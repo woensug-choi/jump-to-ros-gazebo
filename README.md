@@ -11,7 +11,6 @@ permalink: /
 
 ### License
 
-<span style="font-size:50% color:gray">
 This work is open sourced under the Apache License, Version 2.0.
+
 Copyright 2022 Woen-Sug Choi
-</span> 
