@@ -144,17 +144,12 @@
 
 /* Custom font settings */
 
-.book.font-family-0 {
-    font-family: NanumMyeongjo;
-}
-.book.font-family-1 {
-    font-family: NanumSquareNeo;
-}
+
 
 @font-face {
   font-family: NanumSquareNeo;
   src: url("./fonts/NanumSquareNeoOTF-aLt.otf") format('opentype');
-  font-weight: 300;
+  font-weight: 200;
 }
 @font-face {
   font-family: NanumSquareNeo;
@@ -166,17 +161,11 @@
   src: url("./fonts/NanumSquareNeoOTF-cBd.otf") format('opentype');
   font-weight: 700;
 }
-@font-face {
-  font-family: NanumSquareNeo;
-  src: url("./fonts/NanumSquareNeoOTF-dEb.otf") format('opentype');
-  font-weight: 800;
-}
-
 
 @font-face {
   font-family: NanumMyeongjo;
   src: url("./fonts/NanumMyeongjo.otf") format('opentype');
-  font-weight: 300;
+  font-weight: 200;
 }
 @font-face {
   font-family: NanumMyeongjo;
@@ -189,6 +178,12 @@
   font-weight: 700;
 }
 
+.book.font-family-0 {
+    font-family: NanumMyeongjo;
+}
+.book.font-family-1 {
+    font-family: NanumSquareNeo;
+}
 
 /* Render wide tables */
 
