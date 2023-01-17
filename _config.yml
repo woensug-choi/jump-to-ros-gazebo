@@ -1,6 +1,6 @@
 # Configurations
-title:            ROS Gazebo WikiBook
-longtitle:        ROS Gazebo WikiBook
+title:            Jump to ROS-Gazebo
+longtitle:        Jump to ROS-Gazebo
 author:           Woen-Sug Choi
 email:            woensug.choi@gmail.com
 description: >
@@ -10,11 +10,11 @@ version:          0.1
 gitbook_version:  3.2.3
 
 url:              'https://woensug-choi.github.io'
-baseurl:          '/ros-gazebo-wikibook'
+baseurl:          '/jump-to-ros-gazebo'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: woensug-choi/ros-gazebo-wikibook
+remote_theme: woensug-choi/jump-to-ros-gazebo
 toc:
   enabled: true
   h_min: 1
