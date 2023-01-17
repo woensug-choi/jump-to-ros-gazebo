@@ -1,15 +1,17 @@
 ---
 layout: home
-title: ROS Gazebo Wikibook
+title: 점프 투 ROS-Gazebo
 permalink: /
 ---
 
-**로봇 시뮬레이션의 de-facto standard인 ROS와 Gazebo를 시작하기 위한 정보를 담은 온라인 문서**
+**로봇 시뮬레이션의 de-facto standard 프레임워크인 ROS와 Gazebo 시작하기 **
 
-공식튜토리얼과 추가내용을 포함합니다.
+공식튜토리얼과 추가내용을 포함해 처음 ROS-Gazebo 프레임워크를 배우고 시작하는데 필요한 자료를 담았습니다.
 
-## License
 
+### License
+
+<span style="font-size:50% color:gray">
 This work is open sourced under the Apache License, Version 2.0.
-
 Copyright 2022 Woen-Sug Choi
+</span> 
