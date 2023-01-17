@@ -155,15 +155,15 @@
 /* Custom font settings */
 
 .book.font-family-0 {
-    font-family: NanumMyeongjoBold, Georgia, serif;
+    font-family: "NanumMyeongjo", serif;
     src: url("fonts/NanumMyeongjoBold.otf") format('opentype');
 }
 .book.font-family-1 {
-    font-family: "NanumSquareNeo", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    src: url("fonts/NanumSquareNeoTTF-cBd.eot") format('embedded-opentype'),
+    font-family: "NanumSquareNeo", sans-serif;
+    src: url("fonts/NanumSquareNeoTTF-cBd.eot?#iefix") format('embedded-opentype'),
          url("fonts/NanumSquareNeoTTF-cBd.woff2") format('woff2'),
          url("fonts/NanumSquareNeoTTF-cBd.woff") format('woff'),
-         url("fonts/NanumSquareNeoTTF-cBd.otf") format('opentype');
+         url("fonts/NanumSquareNeoOTF-cBd.otf") format('opentype');
 }
 
 /* Render wide tables */
