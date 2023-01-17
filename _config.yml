@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            ROS Gazebo WikiBook
+longtitle:        ROS Gazebo WikiBook
+author:           Woen-Sug Choi
+email:            woensug.choi@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  ROS Gazebo Wiki Book
 
-version:          1.0
+version:          0.1
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://woensug-choi.github.io'
+baseurl:          '/ros-gazebo-wikibook'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
