@@ -155,11 +155,11 @@
 /* Custom font settings */
 
 .book.font-family-0 {
-    font-family: "NanumMyeongjo";
+    font-family: NanumMyeongjo;
     src: url("./fonts/NanumMyeongjoBold.otf") format('opentype');
 }
 .book.font-family-1 {
-    font-family: "NanumSquareNeo"; 
+    font-family: NanumSquareNeo;
     src: url("./fonts/NanumSquareNeoTTF-cBd.eot?#iefix") format('embedded-opentype'),
          url("./fonts/NanumSquareNeoTTF-cBd.woff2") format('woff2'),
          url("./fonts/NanumSquareNeoTTF-cBd.woff") format('woff'),
