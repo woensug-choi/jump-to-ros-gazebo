@@ -279,11 +279,9 @@
 .book.color-theme-2 .book-summary ul.summary li span {
   color: #c1c6d7;
   background: transparent;
-  font-weight: 600;
 }
 .book.color-theme-2 .book-summary ul.summary li.active > a,
 .book.color-theme-2 .book-summary ul.summary li a:hover {
   color: #f4f4f5;
   background: #252737;
-  font-weight: 600;
 }
