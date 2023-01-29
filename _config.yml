@@ -19,7 +19,7 @@ tracker:
 # bootstrap: use the remote theme for the site itself
 remote_theme: woensug-choi/jump-to-ros-gazebo
 toc:
-  enabled: false
+  enabled: true
   h_min: 1
   h_max: 3
 
@@ -66,3 +66,4 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+  - jekyll-toc
