@@ -37,13 +37,56 @@ ROS와 Gazebo 모두 윈도우와 리눅스 어느 운영체제에서도 설치�
 
 [^2] 파일의 읽기쓰기 성능에 제한이 있으나 계산속도에서는 네이티브와 차이가 거의 없다.
 
-### - 윈도우 WSL 환경 준비
-윈도우 11부터는 WSL을 기능이 기본적으로 탑재 되어 있다.
+### 윈도우 WSL 환경 준비
+윈도우 11부터는 WSL을 설치하기 위한 환경이 이미 구성되어 있다. 윈도우 10의 경우 버전 2004 (빌드 19041) 이상이어야 하며 이전 버전의 경우 [수동 설치](https://learn.microsoft.com/ko-kr/windows/wsl/install-manual) 해야 한다.
 
-### - WSL에 우분투 환경설정
-WSL을 설치한 후 Ubuntu 22.04를 설치해 우분투 리눅스 환경을 구성한다
+#### WSL2 설치
 
-## 옵션 1. WSL에 직접설치
+윈도우 시작버튼을 오른쪽 클릭해 Windows PowerShell(관리자) 실행을 클릭해 윈도우 터미널을 관리자 모드로 실행하고 다음 명령어를 입력한 다음 컴퓨터를 다시 시작한다.
+
+```bash
+wsl --install Ubuntu-22.04
+```
+
+재시작 후, 다시 Windows PowerShell(관리자)에서 다음 명령어를 입력해 Ubuntu 22.04를 실행하는 WSL의 버전을 2로 설정한다.
+
+```bash
+wsl --set-version Ubuntu-22.04 2
+```
+
+* (Recommend) Install Windows Terminal to access Ubuntu in WSL2
+    - [Windows Terminal (Microsoft Store)](https://www.microsoft.com/ko-kr/p/windows-terminal/9n0dx20hk701)
+
+
+### 외장그래픽 드라이버 설정
+
+(For GPU version) Install NVIDIA Grahics Driver for WSL2 Docker
+
+    - If you are running only with CPUs, you do not need this
+    - Download and install NVIDIA Driver for WSL2
+        - [CUDA on Windows Subsystem for Linux (WSL)](https://developer.nvidia.com/cuda/tf_wsl)
+    - Check configuration for NVIDIA Graphics Card
+        - Run this command inside Ubuntu 20.04 in WSL2
+
+        ```bash
+        glxinfo | grep OpenGL
+        ```
+
+        You should see something like following,
+
+        ```bash
+        OpenGL vendor string: Microsoft Corporation
+        OpenGL renderer string: D3D12 (NVIDIA GeForce GTX 1660 Ti)
+        ```
+
+        If NOT, do
+
+        ```bash
+        sudo add-apt-repository ppa:kisak/kisak-mesa && sudo apt-get update && sudo apt dist-upgrade
+        ```
+
+
+## 옵션 1. Ubuntu에 직접설치
 
 ### - ROS 설치
 ROS 2를 설치한다.
