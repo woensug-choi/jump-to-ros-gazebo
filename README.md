@@ -13,4 +13,4 @@ permalink: /
 
 This work is open sourced under the Apache License, Version 2.0.
 
-Copyright 2022 Woen-Sug Choi
+Copyright 2022 [Woen-Sug Choi](https://woensug-choi.github.io)

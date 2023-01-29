@@ -1,9 +1,11 @@
 ---
-title: About
-author: Tao He
-date: 2022-02-04
+title: Jump to ROS-Gazebo
+author: Woen-Sug Choi
+date: 2023-01-29
 category: Jekyll
 layout: post
 ---
 
-This is an about page.
+Jump to ROS-Gazebo written by [Woen-Sug Choi](https://woensug-choi.github.io/)
+
+For queries, put up a issue at [Github Issues](https://github.com/woensug-choi/jump-to-ros-gazebo/issues)
