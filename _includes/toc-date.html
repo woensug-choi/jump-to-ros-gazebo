@@ -4,7 +4,7 @@
             <input type="text" placeholder="검색어 입력" />
         </div>
         <div id="book-search-input-link" role="search">
-            <a href="{{site.baseurl}}/assets/search.html">검색</a>
+            <a href="{{site.baseurl}}/assets/search.html">검색하기</a>
         </div>
         <ul class="summary">
             {% if page.url == "/index.html" or page.url == "/" %}
@@ -13,7 +13,9 @@
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
                 <a href="{{site.baseurl}}/">
+                    <strong>
                     {{ site.title | escape }}
+                    </strong>
                 </a>
             </li>
 
@@ -34,8 +36,10 @@
                         {% else %}
                         <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                         {% endif %}
-                            <a class="bolded" href="{{site.baseurl}}{{post.url}}">
-                                {{ post.title | escape }}
+                            <a href="{{site.baseurl}}{{post.url}}">
+                                <strong>
+                                    {{ post.title | escape }}
+                                </strong>
                             </a>
                             {% if site.toc.enabled %}
                                 {% if page.url == post.url %}
