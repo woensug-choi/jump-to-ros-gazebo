@@ -58,9 +58,9 @@ wsl --set-version Ubuntu-22.04 2
     - [Windows Terminal (Microsoft Store)](https://www.microsoft.com/ko-kr/p/windows-terminal/9n0dx20hk701)
 
 
-### 외장그래픽 드라이버 설정
+#### 외장그래픽 드라이버 설정
 
-(For GPU version) Install NVIDIA Grahics Driver for WSL2 Docker
+Install NVIDIA Grahics Driver for WSL2 Docker
 
     - If you are running only with CPUs, you do not need this
     - Download and install NVIDIA Driver for WSL2
