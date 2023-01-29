@@ -13,6 +13,9 @@ url:              'https://woensug-choi.github.io'
 baseurl:          '/jump-to-ros-gazebo'
 rss:              RSS
 
+tracker:
+  google_analytics: G-V4QYWSXXKK
+
 # bootstrap: use the remote theme for the site itself
 remote_theme: woensug-choi/jump-to-ros-gazebo
 toc:
