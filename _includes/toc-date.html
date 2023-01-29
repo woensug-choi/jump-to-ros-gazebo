@@ -34,7 +34,7 @@
                         {% else %}
                         <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                         {% endif %}
-                            <a href="{{site.baseurl}}{{post.url}}">
+                            <a class="bolded" href="{{site.baseurl}}{{post.url}}">
                                 {{ post.title | escape }}
                             </a>
                             {% if site.toc.enabled %}
