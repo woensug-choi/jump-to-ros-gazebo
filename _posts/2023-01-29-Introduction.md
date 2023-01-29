@@ -4,11 +4,11 @@ author: Woen-Sug Choi
 date: 2023-01-29
 category: Jekyll
 layout: post
+toc: true
 ---
 
 # ROS-Gazebo 프레임워크
-ROS-Gazebo 프리임워크는 로봇 시뮬레이션에서 de-facto (실질적) 벤치마크의 기준이 되는 프리임워크로 자리잡고 있다.
-
+ROS-Gazebo 프리임워크는 로봇 시뮬레이션에서 de-facto (실질적) 벤치마크의 기준이 되는 프레임워크로 자리잡고 있다.
 
 ## ROS
 ROS 는 Robot Operating System의 약자로 로봇어플리케이션을 구성하는 툴과 라이브러리들을 포함하는 프로그램들 패키지 이다.
