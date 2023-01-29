@@ -28,11 +28,18 @@ WSL은 윈도우의 리눅스 환경 가상화 기능이다.
 ### WSL을 이용한 Ubuntu 환경설정
 WSL을 설치한 후 Ubuntu 22.04를 설치해 우분투 리눅스 환경을 구성한다
 
-## ROS 설치하기
+## 직접 설치하기
+
+### ROS 설치하기
 ROS 2를 설치한다.
 
-## Gazebo 설치하기
+### Gazebo 설치하기
 Gazebo Garden을 설치한다.
+
+## Docker로 설치하기
+
+
+
 
 
 [1]: https://pages.github.com
