@@ -3393,7 +3393,7 @@ table {
     bottom: 0;
     z-index: 1;
     overflow-y: auto;
-    width: 300px;
+    width: 270px;
     color: #364149;
     background: #fafafa;
     border-right: 1px solid rgba(0, 0, 0, .07);
@@ -3507,7 +3507,7 @@ table {
 
 @media (min-width:600px) {
     .book.with-summary .book-body {
-        left: 300px
+        left: 270px
     }
 }
 
