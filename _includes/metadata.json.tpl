@@ -12,7 +12,7 @@
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
-                "theme": "night"
+                "theme": "white"
             },
             "highlight": {},
             "livereload": {},
