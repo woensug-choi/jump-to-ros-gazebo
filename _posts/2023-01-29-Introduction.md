@@ -14,7 +14,7 @@ ROS와 Gazebo 모두 [Open Robotics](https://www.openrobotics.org/)가 개발지
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/450px-Ros_logo.svg.png" style="display:block;float:right;margin-left:10px;margin-right:5px;margin-top:5px;margin-bottom:10px;width:20%">
 
-[ROS(Robot Operating System)](https://www.ros.org/)은 로봇의 제어와 통신을 위한 오픈소스(Open-Source) 미들웨어<sub><sub><sub>(서로다른 스펙과 복잡도를 가지는 다양한 소프트웨어와 하드웨어들을 통합해 로봇 설계 및 기기, 소프트웨어간 통신을 편리하게 하기 위한 프로그램)</sub></sub></sub>이다. ROS는 실시간 프레임워크는 아니나 실시간 프로그램들과 결합할 수 있다. 
+[ROS(Robot Operating System)](https://www.ros.org/)은 로봇의 제어와 통신을 위한 오픈소스(Open-Source) 미들웨어(서로다른 스펙과 복잡도를 가지는 다양한 소프트웨어와 하드웨어들을 통합해 로봇 설계 및 기기, 소프트웨어간 통신을 편리하게 하기 위한 프로그램)이다. ROS는 실시간 프레임워크는 아니나 실시간 프로그램들과 결합할 수 있다. 
 
 <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/humble/HumbleHawksbill.png" style="display:block;float:right;margin-left:10px;margin-right:5px;margin-top:5px;margin-bottom:10px;width:20%">
 
