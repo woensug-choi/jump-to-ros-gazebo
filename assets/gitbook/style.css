@@ -3791,7 +3791,7 @@ table {
     margin: 0;
     padding: .85em 1em;
     margin-bottom: 1.275em;
-    background: #282a39
+    background: #eee
 }
 
 .markdown-section pre>code {
@@ -3815,7 +3815,7 @@ table {
     padding: .2em;
     margin: 0;
     font-size: 1.0em;
-    background-color: #282a39
+    background-color: #eee
 }
 
 .markdown-section code:after,
@@ -4182,7 +4182,7 @@ table {
     padding: .2em;
     margin: 0;
     font-size: 0.9em;
-    background-color: #282a39
+    background-color: #eee
 }
 
 #book-search-results .search-results .has-results .search-results-item code:after,
