@@ -3635,6 +3635,7 @@ table {
     overflow: hidden;
     color: #333;
     line-height: 1.95;
+    text-indent: 1em;
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
