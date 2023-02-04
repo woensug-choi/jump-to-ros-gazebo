@@ -72,14 +72,12 @@ ROS와 Gazebo 모두 윈도우와 리눅스 어느 운영체제에서도 설치 
 
 윈도우 시작버튼을 오른쪽 클릭해 Windows PowerShell(관리자) 실행을 클릭해 윈도우 터미널을 관리자 모드로 실행하고 다음 명령어를 입력한 다음 컴퓨터를 다시 시작한다.
 
-{% include codeHeader.html %}
 ```bash
 wsl --install Ubuntu-22.04
 ```
 
 재시작 후, 다시 Windows PowerShell(관리자)에서 다음 명령어를 입력해 Ubuntu 22.04를 실행하는 WSL의 버전을 2로 설정한다.
 
-{% include codeHeader.html %}
 ```bash
 wsl --set-version Ubuntu-22.04 2
 ```
@@ -98,14 +96,12 @@ Install NVIDIA Grahics Driver for WSL2 Docker
   - Check configuration for NVIDIA Graphics Card
       - Run this command inside Ubuntu 20.04 in WSL2
 
-        {% include codeHeader.html %}
         ```bash
         glxinfo | grep OpenGL
         ```
 
       You should see something like following,
 
-        {% include codeHeader.html %}
         ```bash
         OpenGL vendor string: Microsoft Corporation
         OpenGL renderer string: D3D12 (NVIDIA GeForce GTX 1660 Ti)
@@ -113,7 +109,6 @@ Install NVIDIA Grahics Driver for WSL2 Docker
 
       If NOT, do
 
-        {% include codeHeader.html %}
         ```bash
         sudo add-apt-repository ppa:kisak/kisak-mesa && sudo apt-get update && sudo apt dist-upgrade
         ```
