@@ -175,14 +175,6 @@
        url("./fonts/NanumSquareNeoOTF-dEb.otf") format('opentype');
   font-weight: 900;
 }
-@font-face {
-  font-family: NanumSquareNeo;
-  src: url("./fonts/NanumSquareNeoTTF-eHv.eot?#iefix") format('embedded-opentype'),
-       url("./fonts/NanumSquareNeoTTF-eHv.woff2") format('woff2'),
-       url("./fonts/NanumSquareNeoTTF-eHv.woff") format('woff'),
-       url("./fonts/NanumSquareNeoOTF-eHv.otf") format('opentype');
-  font-weight: 1100;
-}
 
 @font-face {
     font-family: NanumSquareNeoRegular;
@@ -233,7 +225,7 @@
     font-family: NanumMyeongjo;
 }
 .book.font-family-1 {
-    font-family: NanumSquareNeo;
+    font-family: NanumSquareNeoBold;
 }
 
 /* Render wide tables */
