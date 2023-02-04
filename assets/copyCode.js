@@ -1,7 +1,7 @@
 var codeBlocks = document.querySelectorAll('pre.highlight');
 
 codeBlocks.forEach(function (codeBlock) {
-  var copyButton = document.createElement('button');
+  var copyButton = document.createElement('copybutton');
   copyButton.className = 'copy';
   copyButton.type = 'button';
   copyButton.ariaLabel = 'Copy code to clipboard';
