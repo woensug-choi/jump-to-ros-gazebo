@@ -59,7 +59,7 @@ abbr[title] {
 
 b,
 strong {
-    font-weight: 700
+    font-family: NanumSquareNeoExtraBold
 }
 
 dfn {
@@ -3459,7 +3459,8 @@ table {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    position: relative
+    position: relative;
+    font-weight: bold;
 }
 
 .book-summary ul.summary li a:hover {
@@ -3634,7 +3635,7 @@ table {
     word-wrap: break-word;
     overflow: hidden;
     color: #333;
-    line-height: 1.95;
+    line-height: 2.0;
     text-indent: 1em;
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -3645,7 +3646,9 @@ table {
 .markdown-section * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-size: inherit
+    font-size: inherit;
+    font-family: NanumSquareNeoBold;
+    line-height: 2;
 }
 
 .markdown-section>:first-child {
@@ -3685,7 +3688,7 @@ table {
 
 .markdown-section b,
 .markdown-section strong {
-    font-weight: 700
+    font-family: NanumSquareNeoExtraBold
 }
 
 .markdown-section em {
@@ -3755,7 +3758,8 @@ table {
 }
 
 .markdown-section h2 {
-    font-size: 1.75em
+    font-size: 1.75em;
+    font-family: NanumSquareNeoExtraBold;
 }
 
 .markdown-section h3 {
@@ -4052,7 +4056,7 @@ table {
 
 #book-search-results .search-results .has-results .search-results-item b,
 #book-search-results .search-results .has-results .search-results-item strong {
-    font-weight: 700
+    font-family: NanumSquareNeoExtraBold
 }
 
 #book-search-results .search-results .has-results .search-results-item em {
