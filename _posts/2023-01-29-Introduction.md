@@ -90,28 +90,28 @@ wsl --set-version Ubuntu-22.04 2
 
 Install NVIDIA Grahics Driver for WSL2 Docker
 
-    - If you are running only with CPUs, you do not need this
-    - Download and install NVIDIA Driver for WSL2
-        - [CUDA on Windows Subsystem for Linux (WSL)](https://developer.nvidia.com/cuda/tf_wsl)
-    - Check configuration for NVIDIA Graphics Card
-        - Run this command inside Ubuntu 20.04 in WSL2
+  - If you are running only with CPUs, you do not need this
+  - Download and install NVIDIA Driver for WSL2
+      - [CUDA on Windows Subsystem for Linux (WSL)](https://developer.nvidia.com/cuda/tf_wsl)
+  - Check configuration for NVIDIA Graphics Card
+      - Run this command inside Ubuntu 20.04 in WSL2
 
-        ```bash
-        glxinfo | grep OpenGL
-        ```
+      ```bash
+      glxinfo | grep OpenGL
+      ```
 
-        You should see something like following,
+      You should see something like following,
 
-        ```bash
-        OpenGL vendor string: Microsoft Corporation
-        OpenGL renderer string: D3D12 (NVIDIA GeForce GTX 1660 Ti)
-        ```
+      ```bash
+      OpenGL vendor string: Microsoft Corporation
+      OpenGL renderer string: D3D12 (NVIDIA GeForce GTX 1660 Ti)
+      ```
 
-        If NOT, do
+      If NOT, do
 
-        ```bash
-        sudo add-apt-repository ppa:kisak/kisak-mesa && sudo apt-get update && sudo apt dist-upgrade
-        ```
+      ```bash
+      sudo add-apt-repository ppa:kisak/kisak-mesa && sudo apt-get update && sudo apt dist-upgrade
+      ```
 
 
 ## 옵션 1. Ubuntu에 직접설치
