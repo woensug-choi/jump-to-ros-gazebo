@@ -3803,7 +3803,8 @@ table {
     margin: 0;
     padding: .85em 1em;
     margin-bottom: 1.275em;
-    background: #eee
+    background: #eee;
+    display: flex;
 }
 
 .markdown-section pre>code {
@@ -4338,21 +4339,26 @@ body {
     -webkit-text-size-adjust: 100%
 }
 
-
-/* pre.highlight > copybutton {
-    opacity: 1;
-
+pre.highlight > copybutton {
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    background-color: #919191;
+    cursor: pointer;
+    width: 4em;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    right: 1.7em;
+    border-radius: 5px;
+    color: #ffffff;
 }
 
 pre.highlight:hover > copybutton {
-      background: rgba(0, 0, 0, 0.7);
     opacity: 1;
 }
 
 pre.highlight > copybutton:active,
 pre.highlight > copybutton:focus {
+    background: rgb(0, 107, 70);
+    color: #ffffff;
     opacity: 1;
-} */
+}

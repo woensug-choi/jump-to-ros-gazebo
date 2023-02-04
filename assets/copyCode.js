@@ -13,11 +13,13 @@ codeBlocks.forEach(function (codeBlock) {
     var code = codeBlock.querySelector('code').innerText.trim();
     window.navigator.clipboard.writeText(code);
 
-    copyButton.innerText = 'Copied';
+    copyButton.innerText = 'Done';
+    copyButton.style='background: rgb(0, 107, 70)'
     var fourSeconds = 4000;
 
     setTimeout(function () {
       copyButton.innerText = 'Copy';
+      copyButton.style=''
     }, fourSeconds);
   });
 });
