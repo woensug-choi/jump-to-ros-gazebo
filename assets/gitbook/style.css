@@ -3803,8 +3803,9 @@ table {
     margin: 0;
     padding: .85em 1em;
     margin-bottom: 1.275em;
-    background: #eee;
+    background: #f2f2f2;
     display: flex;
+    text-indent: 0em;
 }
 
 .markdown-section pre>code {
@@ -4350,6 +4351,7 @@ pre.highlight > copybutton {
     right: 1.7em;
     border-radius: 5px;
     color: #ffffff;
+    justify-content: center;
 }
 
 pre.highlight:hover > copybutton {
