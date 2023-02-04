@@ -3706,7 +3706,7 @@ table {
 }
 
 .markdown-section a {
-    color: #4183c4;
+    color: #47ab69;
     text-decoration: none;
     background: 0 0
 }
@@ -3769,10 +3769,12 @@ table {
 .markdown-section h3 {
     font-size: 1.5em
     font-family: NanumSquareNeoExtraBold;
+    color: #167965;
 }
 
 .markdown-section h4 {
     font-size: 1.25em
+    font-family: NanumSquareNeoHeavyBold;
 }
 
 .markdown-section h5 {
