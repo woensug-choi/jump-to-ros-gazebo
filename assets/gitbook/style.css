@@ -3472,7 +3472,7 @@ table {
 }
 
 .book-summary ul.summary li.active>a {
-    color: #008cff;
+    color: #00be6a;
     background: 0 0;
     text-decoration: none
 }
@@ -3767,18 +3767,19 @@ table {
 }
 
 .markdown-section h3 {
-    font-size: 1.5em
+    font-size: 1.5em;
     font-family: NanumSquareNeoExtraBold;
     color: #167965;
 }
 
 .markdown-section h4 {
-    font-size: 1.25em
+    font-size: 1.2em;
     font-family: NanumSquareNeoHeavyBold;
 }
 
 .markdown-section h5 {
-    font-size: 1em
+    font-size: 1em;
+    font-family: NanumSquareNeoHeavyBold;
 }
 
 .markdown-section h6 {
