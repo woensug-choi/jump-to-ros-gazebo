@@ -3195,7 +3195,7 @@ table {
     height: 50px;
     padding: 0 15px;
     border-bottom: none;
-    color: #ccc;
+    color: #454545;
     text-transform: uppercase;
     line-height: 50px;
     -webkit-box-shadow: none !important;
@@ -3675,7 +3675,7 @@ table {
     orphans: 3;
     widows: 3;
     font-family: NanumSquareNeoBold;
-    line-height: 2;
+    line-height: 2.05;
 }
 
 .markdown-section h1,
@@ -3754,16 +3754,21 @@ table {
 }
 
 .markdown-section h1 {
-    font-size: 2em
+    font-size: 2.2em;
+    font-family: NanumSquareNeoHeavyBold;
+    color: #167965;
+
 }
 
 .markdown-section h2 {
     font-size: 1.75em;
     font-family: NanumSquareNeoExtraBold;
+    color: #167965;
 }
 
 .markdown-section h3 {
     font-size: 1.5em
+    font-family: NanumSquareNeoExtraBold;
 }
 
 .markdown-section h4 {
