@@ -72,15 +72,15 @@ ROS와 Gazebo 모두 윈도우와 리눅스 어느 운영체제에서도 설치 
 
 윈도우 시작버튼을 오른쪽 클릭해 Windows PowerShell(관리자) 실행을 클릭해 윈도우 터미널을 관리자 모드로 실행하고 다음 명령어를 입력한 다음 컴퓨터를 다시 시작한다.
 
-```bash
-wsl --install Ubuntu-22.04
-```
+    ```bash
+    wsl --install Ubuntu-22.04
+    ```
 
 재시작 후, 다시 Windows PowerShell(관리자)에서 다음 명령어를 입력해 Ubuntu 22.04를 실행하는 WSL의 버전을 2로 설정한다.
 
-```bash
-wsl --set-version Ubuntu-22.04 2
-```
+    ```bash
+    wsl --set-version Ubuntu-22.04 2
+    ```
 
 * (Recommend) Install Windows Terminal to access Ubuntu in WSL2
     - [Windows Terminal (Microsoft Store)](https://www.microsoft.com/ko-kr/p/windows-terminal/9n0dx20hk701)
