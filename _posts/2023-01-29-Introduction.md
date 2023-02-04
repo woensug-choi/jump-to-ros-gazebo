@@ -100,14 +100,14 @@ Install NVIDIA Grahics Driver for WSL2 Docker
         glxinfo | grep OpenGL
         ```
 
-      You should see something like following,
+        You should see something like following,
 
         ```bash
         OpenGL vendor string: Microsoft Corporation
         OpenGL renderer string: D3D12 (NVIDIA GeForce GTX 1660 Ti)
         ```
 
-      If NOT, do
+        If NOT, do
 
         ```bash
         sudo add-apt-repository ppa:kisak/kisak-mesa && sudo apt-get update && sudo apt dist-upgrade
