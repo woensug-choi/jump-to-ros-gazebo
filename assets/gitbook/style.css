@@ -3647,8 +3647,6 @@ table {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-size: inherit;
-    font-family: NanumSquareNeoBold;
-    line-height: 2;
 }
 
 .markdown-section>:first-child {
@@ -3675,7 +3673,9 @@ table {
 .markdown-section h5,
 .markdown-section p {
     orphans: 3;
-    widows: 3
+    widows: 3;
+    font-family: NanumSquareNeoBold;
+    line-height: 2;
 }
 
 .markdown-section h1,
