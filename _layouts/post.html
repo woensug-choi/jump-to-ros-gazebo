@@ -33,6 +33,11 @@
                 </div>
 
                 <div class="body-inner">
+
+                    <p class="lastmodified">
+                        최종 수정일: {% last_modified_at %}
+                    </p>
+                    
                     {%- include body.html -%}
 
                     {% if page.previous %}
@@ -61,7 +66,6 @@
             </script>
             <script src="./../assets/copyCode.js"></script>
         </div>
-
         {%- include footer.html -%}
 
     </body>
