@@ -3650,7 +3650,7 @@ table {
 }
 
 .markdown-section>:first-child {
-    margin-top: 0 !important
+    margin-top: 1em !important
 }
 
 .markdown-section>:last-child {
@@ -4363,4 +4363,11 @@ pre.highlight > copybutton:focus {
     background: rgb(0, 107, 70);
     color: #ffffff;
     opacity: 1;
+}
+
+.lastmodified{
+    position: absolute;
+    top: 5.5em;
+    left: 2.4em;
+    color: #cbcbcb;
 }
