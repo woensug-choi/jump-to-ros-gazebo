@@ -9,6 +9,11 @@
     {% endif %}
 
     <div class="page-inner">
+        
+    <p class="lastmodified">
+        최초게시: {{ page.date | date: "%d-%b-%y" }}  /  최종수정: {% last_modified_at %}
+    </p>
+    
         <div id="book-search-results">
             <div class="search-noresults">
                 <section class="normal markdown-section">
