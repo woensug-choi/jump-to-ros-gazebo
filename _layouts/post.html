@@ -35,7 +35,7 @@
                 <div class="body-inner">
 
                     <p class="lastmodified">
-                        최종 수정일: {% last_modified_at %}
+                        최초게시: {{ page.date | date: "%d-%b-%y" }}  /  최종수정: {% last_modified_at %}
                     </p>
                     
                     {%- include body.html -%}
