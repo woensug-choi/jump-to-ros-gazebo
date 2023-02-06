@@ -9,6 +9,6 @@ gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
 gem 'jekyll-toc'
-gem 'jekyll-last-modified-at'
+gem "jekyll-last-modified-at", git: "https://github.com/gjtorikian/jekyll-last-modified-at.git"
 
 # gem "rails"
