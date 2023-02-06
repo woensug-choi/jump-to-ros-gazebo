@@ -1,12 +1,19 @@
-name: Build and Deploy
-on: [push]
-permissions:
-  contents: write
+name: jekyll-cd
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/jekyll-build-pages@v1.0.7
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
         with:
           fetch-depth: 0
+      - name: 🧪 Build and deploy
+        uses: victoriadrake/jekyll-cd@master
