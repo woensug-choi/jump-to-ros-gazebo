@@ -59,13 +59,13 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
+
 plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
   - jekyll-toc
   - jekyll-last-modified-at
-
-# Optional. The default date format, used if none is specified in the tag.
-last-modified-at:
-    date-format: '%d-%b-%y'
