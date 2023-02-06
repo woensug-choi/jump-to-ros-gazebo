@@ -1,3 +1,4 @@
 _draft/
 _site/
 .jekyll-cache/
+Gemfile.lock
