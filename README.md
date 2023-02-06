@@ -10,7 +10,7 @@ permalink: /
 처음 ROS-Gazebo 프레임워크를 배우고 시작하는데 필요한 자료를 담았습니다.
 
 > * 문의사항은 [Github의 Issues](https://github.com/woensug-choi/jump-to-ros-gazebo/issues)를 이용해 주시기 바랍니다.
-> * 최상의 가독성을 위해 [Chrome](https://www.google.com/chrome/) 또는 [Edge](https://www.microsoft.com/edge) 사용을 권장합니다.
+> * 최상의 가독성을 위해 데스크탑 환경에서 [Chrome](https://www.google.com/chrome/) 또는 [Edge](https://www.microsoft.com/edge) 사용을 권장합니다.
 
 ### License
 
