@@ -9,9 +9,6 @@ gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
 gem 'jekyll-toc'
-
-group :jekyll_plugins do
-    gem "jekyll-last-modified-at"
-  end
+gem 'jekyll-last-modified-at'
 
 # gem "rails"
