@@ -59,7 +59,7 @@ abbr[title] {
 
 b,
 strong {
-    font-family: NanumSquareNeoExtraBold
+    font-family: NanumSquareNeoHeavyBold
 }
 
 dfn {
@@ -3690,7 +3690,7 @@ table {
 
 .markdown-section b,
 .markdown-section strong {
-    font-family: NanumSquareNeoExtraBold
+    font-family: NanumSquareNeoHeavyBold
 }
 
 .markdown-section em {
@@ -4071,7 +4071,7 @@ table {
 
 #book-search-results .search-results .has-results .search-results-item b,
 #book-search-results .search-results .has-results .search-results-item strong {
-    font-family: NanumSquareNeoExtraBold
+    font-family: NanumSquareNeoHeavyBold
 }
 
 #book-search-results .search-results .has-results .search-results-item em {
