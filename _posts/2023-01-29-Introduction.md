@@ -7,7 +7,7 @@ category: Jekyll
 layout: post
 ---
 
-# **ROS-Gazebo 프레임워크**
+# **◼ ROS-Gazebo 프레임워크**
 ROS-Gazebo는 로봇의 제어와 시뮬레이션에서 de-facto(실질적) 기준이 되는 오픈소스 프레임워크다.
 ROS와 Gazebo 모두 [Open Robotics](https://www.openrobotics.org/)가 개발지원하고 있다.
 
