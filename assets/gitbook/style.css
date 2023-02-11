@@ -82,7 +82,6 @@ kbd,
 pre,
 samp {
     font-family: monospace, serif;
-    font-size: 1em
 }
 
 pre {
@@ -3649,7 +3648,6 @@ table {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-size: inherit;
-    font-family:  NanumSquareNeoBold;
 }
 
 .markdown-section>:first-child {
