@@ -58,6 +58,7 @@ page_width: 800px
 destination:      ./_site
 incremental:      false
 regenerate:       true
+future: true
 
 plugins:
   - jekyll-feed
