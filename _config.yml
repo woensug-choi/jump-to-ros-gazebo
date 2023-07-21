@@ -43,7 +43,7 @@ syntax_highlighter_style: github
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:        /:categories/:title:output_ext
+permalink:        /:title:output_ext
 
 exclude:
   - _drafts
